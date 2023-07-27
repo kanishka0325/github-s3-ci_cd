@@ -14,5 +14,5 @@ phases:
   post_build:
     commands:
       - echo "Updating Project to S3..."
-      - aws s3 sync dist/build/ s3://kanishka-demo-app --delete
+      - aws s3 sync build/ s3://kanishka-demo-app --delete
   
