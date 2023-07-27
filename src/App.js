@@ -7,11 +7,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Github S3 CodeDeploy React Application.
+          Github S3 CodeDeploy React Application In Production.
         </p>
-       
           <span style={{ fontSize:'12px' }}>Version: 1.0</span>
-     
       </header>
     </div>
   );
